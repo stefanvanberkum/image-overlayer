@@ -18,15 +18,15 @@ Image overlayer using image registration with user-specified control points. Can
   - Press ````Edit existing````.
   - Edit your control points in the pop-up window.
   - Closing the pop-up window will re-transform your overlay image.
-- To save your currently selected control points press ````Save points```` (this will save your points to a .mat file).
-- To load a previously saved .mat file with control points press ````Load points````.
+- To save your currently selected control points, press ````Save points```` (this will save your points to a .mat file).
+- To load a previously saved .mat file with control points, press ````Load points````.
 - The displayed correlation is a 2-D correlation coefficient (corr2), between the base and transformed overlay control points.
 - Four different types of output can be previewed directly in the app:
   - Color: false color by independently applying brightness scaling to each image (imshowpair).
   - Base: the (untransformed) base image.
   - Overlay: the (transformed) overlay image.
   - Both: the overlay layed on top of the base image, with blue and red crosses depicting the base and overlay control points, respectively.
-- To save the result press ````Save result```` (this will save all four aforementioned types).
+- To save the result, press ````Save result```` (this will save all four aforementioned types).
 
 # Package requirements
 - Requires the MathWorks Image Processing Toolbox.
