@@ -5,6 +5,7 @@ Image overlayer using image registration with user-specified control points.
 
 # How to install?
 - Runs on MATLAB and can be found among the MATLAB Add-Ons.
+- After adding the toolbox to MATLAB the Image Overlayer app will appear among your apps.
 
 # Package requirements
 - Requires the MathWorks Image Processing Toolbox.
