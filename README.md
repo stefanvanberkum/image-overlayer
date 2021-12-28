@@ -1,5 +1,5 @@
 # Image Overlayer
-Image overlayer using image registration with user-specified control points.
+Image overlayer using image registration with user-specified control points. Can be used to compare compare different depictions of the same setting. It is especially useful for comparing different maps, such as those in the toolbox image.
 
 [![View Image Overlayer on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://nl.mathworks.com/matlabcentral/fileexchange/104250-image-overlayer)
 
@@ -13,7 +13,7 @@ Image overlayer using image registration with user-specified control points.
 - To start a new transformation:
   - Press ````Start new```` (this will clear any previously placed control points).
   - Select control points in the pop-up window.
-  - Closing the pop-up window will transform your overlay image to align its control points with their corresponding base image control points.
+  - Closing the pop-up window will transform your overlay image to (approximately) align its control points with their corresponding base image control points.
 - To edit your control points:
   - Press ````Edit existing````.
   - Edit your control points in the pop-up window.
