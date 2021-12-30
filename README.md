@@ -20,7 +20,7 @@ Image overlayer using image registration with user-specified control points. Can
   - Closing the pop-up window will re-transform your overlay image.
 - To save your currently selected control points, press ````Save points```` (this will save your points to a .mat file). Note that this will only save your control points, so make sure to remember which images they correspond to!
 - To load a previously saved .mat file with control points, press ````Load points````. Note that you need to reselect the images that correspond to these control points yourself.
-- The displayed correlation is a 2-D correlation coefficient (corr2), between the base and transformed overlay control points, which gives an idea of how well the algorithm was able to align these points.
+- The displayed correlation is a 2-D correlation coefficient (corr2), between the base and transformed overlay control points, which gives an idea of how well the algorithm was able to align these points. Note that it will be quite high in most cases, and that an increase in control-point correlation need not imply a better fit in general (it's mostly there because the correlation gauge looks fun).
 - Four different types of output can be previewed directly in the app:
   - Color: false color by independently applying brightness scaling to each image (default imshowpair).
   - Base: the (untransformed) base image.
