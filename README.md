@@ -27,7 +27,7 @@ Image overlayer using image registration with user-specified control points. Can
   - Overlay: the (transformed) overlay image.
   - Both: the overlay layed on top of the base image, with blue and red crosses depicting the base and overlay control points, respectively.
 - To save the result, press ````Save result```` (this will save all four aforementioned types).
-- To change the transformation type, select a transformation from the transformation drop-down menu. Projective transformation (default) is sufficient in most cases, but more flexible transformations can be chosen as well. Note that the transformed overlay control points (red) cannot be obtained for  'polynomial',  'pwl', and 'lwm' transformation types. For these transformations, only the base (blue) control points will be plotted and the correlation cannot be estimated. For more information on each transformation, see: https://nl.mathworks.com/help/images/ref/fitgeotrans.html#bvonaug.
+- To change the transformation type, select a transformation from the transformation drop-down menu. Projective transformation (default) is sufficient in most cases, but more flexible transformations can be chosen as well. Note that the transformed overlay control points (red) cannot be obtained for  'polynomial',  'pwl', and 'lwm' transformation types. For these transformations, only the base control points (blue) will be plotted and the correlation cannot be estimated. For more information on each transformation, see: https://nl.mathworks.com/help/images/ref/fitgeotrans.html#bvonaug.
 
 # Package requirements
 - Requires the MathWorks Image Processing Toolbox.
